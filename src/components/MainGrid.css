@@ -1,0 +1,10 @@
+.custom-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 12px !important;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(13, 0, 255, 0.4) !important;
+    border-color: #b0bac4 !important;
+}

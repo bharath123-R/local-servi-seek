@@ -6,10 +6,10 @@ import { FaSearch } from 'react-icons/fa';
 
 export default function NavBar() {
     return (
-        <div>
+        <div style={{fontSize: "17px"}}>
             <nav className="navbar navbar-expand-lg Background-color">
                 <div className="container-fluid">
-                    <a className="navbar-brand fw-bold" href="#">Local <span className='Servi-color'>Servi</span><span className='Seek-color'>Seek</span></a>
+                    <a className="navbar-brand fw-bold" style={{fontSize: "20px"}} href="#">Local <span className='Servi-color'>Servi</span><span className='Seek-color'>Seek</span></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -42,13 +42,14 @@ export default function NavBar() {
                                 <a className="nav-link Nav-hover" href="#">Contact</a>
                             </li>
                         </ul>
-                        <form className="d-flex" role="search">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn btn-outline-success d-flex align-items-center justify-content-center" type="submit">
-                                <FaSearch />
-                                <span className="d-none d-lg-inline ms-2">Search</span>
-                            </button>
-                        </form>
+                        <div >
+                            <Link to="/login">
+                                <button className="btn btn-primary">Login</button>
+                            </Link>
+                            <button className="btn btn-primary ms-2">Sign Up</button>
+
+                        </div>
+                        
                     </div>
                 </div>
             </nav>

@@ -1,0 +1,99 @@
+.image-grid {
+    height: 300px;
+    width: 100%;
+    object-fit: fill;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7 ), rgba(0, 0, 0, 0.6)), url("./Photo.png");
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+
+}
+
+.sub-content {
+    color: rgb(217, 217, 217);
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.main-content {
+    color: white;
+    font-size: 40px;
+    white-space: nowrap;
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+
+
+@media (max-width: 768px) {
+    .image-grid {
+        height: 250px;
+    }
+
+    .main-content {
+        font-size: 20px;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    .sub-content {
+        font-size: 12px;
+        text-align: center;
+        top: 38%;
+
+    }
+
+    .custom-search {
+
+        max-width: 90%;
+        padding: 8px;
+    }
+
+
+
+
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.custom-search {
+
+    background-color: blue;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    width: 90%;
+    max-width: 700px;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+      
+}
+
+.custom-search-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+.custom-button {
+
+    font-weight: bold;
+}

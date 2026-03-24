@@ -4,12 +4,24 @@
 .Servi-color{
     color: blue;
 }
+
+
+.nav-login-btn{
+    display: flex;
+    /* background-color: blue;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    height: 30px; */
+
+}
 .Seek-color{
     color: orange;
 }
 .Nav-hover{
     transition: 0.2s ease, box-shadow 0.2s ease;
-    border-radius: 12px !important;
+    border-radius: 10px !important;
 }
 .Nav-hover:hover{
     transform: translateY(-4px);

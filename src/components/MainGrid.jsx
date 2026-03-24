@@ -6,18 +6,18 @@ import { GiBroom } from 'react-icons/gi';
 import './MainGrid.css';
 
 const categories = [
-  { name: 'Plumbing', icon: <FaFaucet size={28} color="#5a91ad" /> },
-  { name: 'Cleaning', icon: <GiBroom size={28} color="#b37b42" /> },
-  { name: 'Electrician', icon: <FaPlug size={28} color="#2c7a7b" /> },
-  { name: 'AC Repair', icon: <FaWind size={28} color="#63b3ed" /> },
-  { name: 'Tutor', icon: <FaBookOpen size={28} color="#4a5568" /> },
-  { name: 'Beauty', icon: <FaPaintBrush size={28} color="#3182ce" /> },
+  { name: 'Plumbing', icon: <FaFaucet size={56} color="#5a91ad" /> },
+  { name: 'Cleaning', icon: <GiBroom size={56} color="#b37b42" /> },
+  { name: 'Electrician', icon: <FaPlug size={56} color="#2c7a7b" /> },
+  { name: 'AC Repair', icon: <FaWind size={56} color="#63b3ed" /> },
+  { name: 'Tutor', icon: <FaBookOpen size={56} color="#4a5568" /> },
+  { name: 'Beauty', icon: <FaPaintBrush size={56} color="#3182ce" /> },
 ];
 
 const MainGrid = () => {
   return (
     <Container className="mt-3">
-      <h6 className="fw-bold mb-4 text-dark" style={{ fontSize: '16px', letterSpacing: '0.5px' }}>
+      <h6 className="fw-bold mb-4 text-dark" style={{ fontSize: '20px', letterSpacing: '0.5px' }}>
         POPULAR CATEGORIES
       </h6>
       <Row className="row-cols-2 row-cols-md-3 row-cols-lg-6 g-3">

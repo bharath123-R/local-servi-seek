@@ -7,6 +7,8 @@ import PhotoGrid from './components/PhotoGrid';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LoginPage from '../LoginPage/LoginPage';
 import HomePage from './components/HomePage';
+import RegisterPage from '../RegisterPage/RegisterPage';
+import NewRegisterPage from '../RegisterPage/NewRegisterPage';
 
 export default function App() {
   return (
@@ -14,7 +16,7 @@ export default function App() {
       {/* <NavBar /> */}
       {/* <PhotoGrid /> */}
       {/* <MainGrid /> */}
-   
+      {/* <NewRegisterPage /> */}
 
 <BrowserRouter>
       <Routes>
@@ -24,6 +26,7 @@ export default function App() {
         {/* Option 1: Make the Login Page the default page for now */}
         <Route path="/" element={<HomePage />} />
         <Route path='/login' element={<LoginPage />} />
+        <Route path='/register' element={<NewRegisterPage />} />
         {/* Option 2: Automatically redirect "/" to "/login" */}
         {/* <Route path="/" element={<Navigate to="/login" replace />} /> */}
 

@@ -60,7 +60,7 @@ export default function RegisterPage() {
                     </div>
 
                     <div >
-                        <h4>Already have an Account? <span className='Login-button'><Link to="/">Login </Link></span></h4>
+                        {/* <h4>Already have an Account? <span className='Login-button'><Link to="/">Login </Link></span></h4> */}
 
                     </div>
                 </div>

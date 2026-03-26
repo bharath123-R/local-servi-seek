@@ -73,7 +73,7 @@
 
 .custom-search {
 
-    background-color: blue;
+    background: linear-gradient(135deg, #667eea, #764ba2);
     padding: 10px;
     border-radius: 8px;
     display: flex;

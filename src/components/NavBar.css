@@ -17,20 +17,31 @@
 
 }
 .Seek-color{
-    color: orange;
+    color: #ffa500;
 }
 .Nav-hover{
-    transition: 0.2s ease, box-shadow 0.2s ease;
+    transition: all 0.3s ease; 
     border-radius: 10px !important;
+    
+    /* 1. Moved padding here so the button size is fixed BEFORE hovering */
+    padding: 8px 18px !important;
 }
 .Nav-hover:hover{
     transform: translateY(-4px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
-    border-color: rgb(164, 164, 183) !important;
     color: white !important;
     background-color: rgb(240, 150, 23);
-    padding: 8px 18px !important;
-    font-weight: bold !important;
+    border-color: rgb(164, 164, 183) !important;
 
 }
 
+
+    
+@media (max-width: 992px) {
+    .btn-responsive {
+        position: relative;
+        left: 0;
+        
+    }
+
+}

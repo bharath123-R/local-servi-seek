@@ -57,10 +57,10 @@ export default function NavBar() {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link Nav-hover" aria-current="page" href="#">Home</a>
+                                <Link className="nav-link Nav-hover" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link Nav-hover" href="#">Categories</a>
+                                <Link className="nav-link Nav-hover" to="/categories">Categories</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link Nav-hover" href="#">Service Provider</a>

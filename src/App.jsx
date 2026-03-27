@@ -9,6 +9,8 @@ import LoginPage from '../LoginPage/LoginPage';
 import HomePage from './components/HomePage';
 import RegisterPage from '../RegisterPage/RegisterPage';
 import NewRegisterPage from '../RegisterPage/NewRegisterPage';
+import CategoriesPage from './components/CategoriesPage';
+
 
 export default function App() {
   return (
@@ -17,29 +19,21 @@ export default function App() {
       {/* <PhotoGrid /> */}
       {/* <MainGrid /> */}
       {/* <NewRegisterPage /> */}
+      {/* <CategoriesPage /> */}
+      {/* <CategoriesPageNew /> */}
 
-<BrowserRouter>
+      <BrowserRouter >
       <Routes>
         
-        {/* FIX: Add a route for "/" */}
-
-        {/* Option 1: Make the Login Page the default page for now */}
         <Route path="/" element={<HomePage />} />
         <Route path='/login' element={<LoginPage />} />
         <Route path='/register' element={<NewRegisterPage />} />
-        {/* Option 2: Automatically redirect "/" to "/login" */}
-        {/* <Route path="/" element={<Navigate to="/login" replace />} /> */}
-
-        {/* Option 3: If you have your ServiSeek Home Page ready, put it here */}
-        {/* <Route path="/" element={<HomePage />} /> */}
-
-
-        {/* Your existing login route */}
-        {/* <Route path="/login" element={<LoginPage />} /> */}
+        <Route path='/categories' element={<CategoriesPage />} />
+        
         
       </Routes>
     </BrowserRouter>
       
-    </div>
+ </div>   
   )
 }

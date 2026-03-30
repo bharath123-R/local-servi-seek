@@ -17,9 +17,9 @@ export default function NavBar() {
                 <div className="container-fluid">
                     
                     {/* 1. Brand - Left Aligned */}
-                    <a className="navbar-brand fw-bold text-truncate me-1" style={{fontSize: "20px"}} href="#">
+                    <Link className="navbar-brand fw-bold text-truncate me-1" style={{fontSize: "20px"}} to="/">
                         Local <span className='Servi-color'>Servi</span><span className='Seek-color'>Seek</span>
-                    </a>
+                    </Link>
                     
                     {/* 2. Grouped Buttons & Toggler (Visible on Mobile Top Bar) */}
                     {/* order-lg-last pushes this entire block to the right on desktop */}

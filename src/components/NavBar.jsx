@@ -24,12 +24,12 @@ export default function NavBar() {
                     {/* 2. Grouped Buttons & Toggler (Visible on Mobile Top Bar) */}
                     {/* order-lg-last pushes this entire block to the right on desktop */}
                     <div className="d-flex align-items-center ms-auto gap-2 order-lg-last">
-                        <Link to="/login">
+                        {/* <Link to="/login">
                             <button className="btn btn-primary btn-sm px-2 py-1">Login</button>
                         </Link>
                         <Link to="/register">
                             <button className="btn btn-primary btn-sm px-2 py-1">Sign Up</button>
-                        </Link>
+                        </Link> */}
                         
                         <button className="navbar-toggler p-1 ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -63,7 +63,7 @@ export default function NavBar() {
                                 <Link className="nav-link Nav-hover" to="/categories">Categories</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link Nav-hover" href="#">Service Provider</a>
+                                <Link className="nav-link Nav-hover" to="serviceprovider">Service Provider</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link disabled " aria-disabled="true">Disabled</a>

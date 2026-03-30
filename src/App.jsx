@@ -10,6 +10,7 @@ import HomePage from './components/HomePage';
 import RegisterPage from '../RegisterPage/RegisterPage';
 import NewRegisterPage from '../RegisterPage/NewRegisterPage';
 import CategoriesPage from './components/CategoriesPage';
+import ServiceProvider from './components/ServiceProvider';
 
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
       {/* <NewRegisterPage /> */}
       {/* <CategoriesPage /> */}
       {/* <CategoriesPageNew /> */}
+      {/* <ServiceProvider /> */}
 
       <BrowserRouter >
       <Routes>
@@ -29,6 +31,7 @@ export default function App() {
         <Route path='/login' element={<LoginPage />} />
         <Route path='/register' element={<NewRegisterPage />} />
         <Route path='/categories' element={<CategoriesPage />} />
+        <Route path='/serviceprovider' element={<ServiceProvider />} />
         
         
       </Routes>

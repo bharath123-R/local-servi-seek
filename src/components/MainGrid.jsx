@@ -32,7 +32,7 @@ const categories = [
     title: 'AC Repair',
     count: 236,
     image:
-      'https://images.unsplash.com/photo-1581275233823-5c1d2b79dfc8?w=600&q=80&auto=format&fit=crop',
+      'https://www.airconditioning-cleaning.com/wp-content/uploads/2022/05/iStock-1351102754-scaled.jpg',
   },
   {
     id: 5,
